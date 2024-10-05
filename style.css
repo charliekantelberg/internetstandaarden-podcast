@@ -83,22 +83,8 @@ footer nav {
   gap: 1000px;
 }
 
-/*slide In  animatie */
-@keyframes logo {
-    from {
-        transform: translateX(-100%);
-    }
-  to {
-      transform: translateX(0%);
-  }
-}
-
-.slide-in {
-    animation: slideIn 2s infinite forwards;
-}
-
 main div {
   display: flex;
-  justify-content: space-evenly;
-  text-align: center;
+  align-items: center;
+  text-align:center;
 }
