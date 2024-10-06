@@ -88,3 +88,19 @@ main div {
   align-items: center;
   text-align:center;
 }
+
+nav img {
+  width: 30px;
+  cursor: pointer;
+}
+
+.couture_logo{
+  animation-name: slideIn;
+  animation-duration: 5s;
+}
+
+
+@keyframes slideIn {
+   from{transform: translateX(0);}
+    to{transform: translateX(50px);}
+}
