@@ -96,7 +96,7 @@ nav img {
 
 .couture_logo{
   animation-name: slideIn;
-  animation-duration: 5s;
+  animation-duration: 10s;
 }
 
 
@@ -104,3 +104,14 @@ nav img {
    from{transform: translateX(0);}
     to{transform: translateX(50px);}
 }
+
+/* Dark modus */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+}
+/* media query kan je verschillende stijlen toeppasen vd eigenschappen van het apparaat
+media-feature= kleuren bijv, media-type= het beeldscherm bijv. */
+/*code van w3schools */
